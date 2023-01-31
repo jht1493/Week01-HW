@@ -48,6 +48,7 @@ struct emojiStory{
 }
 
 var myStory = emojiStory()
+myStory.output()
 
 //struct anEmoji{
 //    var base: Array<String>=Array()
