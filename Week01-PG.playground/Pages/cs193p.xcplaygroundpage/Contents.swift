@@ -1,6 +1,7 @@
 //: [Previous](@previous)
 
 import SwiftUI
+import PlaygroundSupport
 
 struct ContentView: View {
     var emojis = ["🪬","⚗️","⌚️","💻","⌨️","🖲️","🕹️","💽","💾","📷","🎥","🎞️","📞","☎️","📠","📺","🧭","⏰","⌛️","📡","🔋","💡","💰","💎"]
@@ -69,12 +70,17 @@ struct Cardview: View{
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//            
+//    }
+//}
+
+PlaygroundPage.current.setLiveView(
+    ContentView()
+        .frame(width: 375, height: 812)
+)
 
 
 //: [Next](@next)
